@@ -1,19 +1,19 @@
-# 📉 Layoffs SQL Exploratory Data Analysis (EDA)
+Layoffs SQL Exploratory Data Analysis (EDA)
 
 This project explores global tech layoffs using SQL. The goal is to uncover trends by company, industry, country, and time — and to evaluate how funding levels and startup stage relate to layoffs.
 
 ---
 
-## 📂 Data Source & Preparation
+Data Source & Preparation
 
 The dataset was sourced from [Layoffs.fyi](https://layoffs.fyi/) and cleaned in a separate repository:  
-👉 [Layoffs Data Cleaning Repository](https://github.com/jkselig/layoffs-data-cleaning)
+[Layoffs Data Cleaning Repository](https://github.com/jkselig/layoffs-data-cleaning)
 
 After cleaning, the data was imported into a SQL table named `layoffs_staging2` for analysis.
 
 ---
 
-## 🔍 Key Questions Explored
+Key Questions Explored
 
 - Which companies laid off the most employees?
 - What industries and countries were hit hardest?
@@ -24,7 +24,7 @@ After cleaning, the data was imported into a SQL table named `layoffs_staging2` 
 
 ---
 
-## 💡 Analysis Highlights
+Analysis Highlights
 
 ✅ Monthly and rolling totals for layoffs  
 ✅ Top 5 companies by layoffs per year  
@@ -35,29 +35,24 @@ After cleaning, the data was imported into a SQL table named `layoffs_staging2` 
 
 ---
 
-## 🛠️ Tools Used
+Tools Used
 
 - **SQL**
   - CTEs, window functions, aggregates, CASE
-- **GitHub** for version control
-- *(Optional)* Tableau / Excel / Python for visualizations
-
 ---
 
-## 📁 Project Structure
+Project Structure
 
 ```
 layoffs-sql-eda/
 │
 ├── README.md                # Project overview and insights
 ├── layoffs_eda.sql          # Fully commented SQL analysis
-│
-└── insights/                # (Optional) Executive summary or write-up
-    └── summary.md
+└── Summary of Findings - Layoffs EDA
 ---
 
-## 📬 Contact
+Contact
 
-👋 Built by [Jeremy Selig](https://github.com/jkselig)  
+Built by [Jeremy Selig](https://github.com/jkselig)  
 For questions or feedback, feel free to reach out!
 
